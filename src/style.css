@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { @apply bg-night; overscroll-behavior: none; }
+.card { @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl shadow-glow; }
+.btn-pill { @apply rounded-full px-6 py-3 font-semibold tracking-wide transition active:scale-95; }
+.btn-primary { @apply btn-pill bg-gradient-to-r from-neon to-uv text-white shadow-glow; }
+.btn-secondary { @apply btn-pill bg-white/10 text-white border border-white/20; }
